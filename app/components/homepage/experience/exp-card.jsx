@@ -18,13 +18,13 @@ function ExpCard({ exp }) {
 
     {/* Image and company */}
     <div className="flex items-center space-x-2">
-      <Image
+      {/* <Image
         src={exp.image}  // Company logo image URL
         alt="Company Logo"
         width={50}        // Image size width
         height={50}       // Image size height
         className="rounded-full"  // Optional: makes the logo circular
-      />
+      /> */}
       <p className="text-center ml-3 text-[#fff] text-base lg:text-xl">
         {exp.company}
       </p>

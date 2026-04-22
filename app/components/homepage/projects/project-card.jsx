@@ -52,6 +52,28 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">{"],"}</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">role:</span>
+            <span className="text-gray-400">{` '`}</span>
+            <span className="text-amber-300">{project.role}</span>
+            <span className="text-gray-400">{`',`}</span>
+          </div>
+          {project.demo && (
+            <div className="ml-4 lg:ml-8 mr-2">
+              <span className="text-white">demo:</span>
+              <span className="text-gray-400">{` '`}</span>
+              <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-amber-300 hover:text-[#16f2b3] hover:underline cursor-pointer">{project.demo}</a>
+              <span className="text-gray-400">{`',`}</span>
+            </div>
+          )}
+          {project.code && (
+            <div className="ml-4 lg:ml-8 mr-2">
+              <span className="text-white">code:</span>
+              <span className="text-gray-400">{` '`}</span>
+              <a href={project.code} target="_blank" rel="noopener noreferrer" className="text-amber-300 hover:text-[#16f2b3] hover:underline cursor-pointer">{project.code}</a>
+              <span className="text-gray-400">{`',`}</span>
+            </div>
+          )}
+          <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400"></span>

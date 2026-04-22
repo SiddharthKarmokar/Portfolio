@@ -11,7 +11,7 @@ export const experiences = [
   {
     id: 2,
     title: "Winner",
-    company: "GDG Campus Hackathon",
+    company: "Google Developer Group(GDG) Campus Hackathon",
     duration: "(2025)",
     tools: ['FastAPI', 'RAG', 'Pinecone', 'AWS', 'EC2', 'Nginx', 'CI/CD'],
     image: '/png/gdg.png',
@@ -30,7 +30,7 @@ export const experiences = [
     id: 4,
     title: 'Lead Organizer',
     company: "Netrik National Hack",
-    duration: "(2025)",
+    duration: "(2026)",
     tools: ['Leadership', 'Event Management', 'Sponsorships', 'Team Coordination'],
     image: '/png/netrik.png',
     description: 'Led a 40-member team to organize a national-level hackathon. Managed sponsors, budgeting, and logistics while successfully executing a multi-round competitive event.'
@@ -39,7 +39,7 @@ export const experiences = [
     id: 5,
     title: "Lead",
     company: "Google Developer Group (GDG) on Campus",
-    duration: "(2025 - Present)",
+    duration: "(2025 - 2026)",
     tools: ['Community Building', 'Workshops', 'Hackathons', 'Technical Talks'],
     image: '/png/gdg-campus.png',
     description: 'Organized hackathons, technical workshops, and speaker sessions. Built an active developer community and collaborated with industry professionals to deliver impactful events.'
